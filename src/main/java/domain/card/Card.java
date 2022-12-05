@@ -26,6 +26,7 @@ public class Card {
                 type == card.type;
     }
 
+
     @Override
     public int hashCode() {
         return Objects.hash(symbol, type);
